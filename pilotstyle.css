@@ -148,7 +148,7 @@ nav img {
 }
 
 header {
-	background: url(hanger.jpg);
+	background: url(assets/hanger.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -226,15 +226,15 @@ header {
 }
 
 .col-3 .a {
-	background: url(custom_showcase3_img.jpg);
+	background: url(assets/custom_showcase3_img.jpg);
 }
 
 .col-3 .b {
-	background: url(custom_showcase4_img.jpg);
+	background: url(assets/custom_showcase4_img.jpg);
 }
 
 .col-3 .c {
-	background: url(custom_showcase1_img.jpg);
+	background: url(assets/custom_showcase1_img.jpg);
 }
 
 article div {
