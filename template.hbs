@@ -1,16 +1,18 @@
 {{#each products}}
 <article>
     <div>
+        {{#if this.discount}}
         <div class="ball-per balls">
-            <p>-{{discount}}%</p>
+            <p>-{{this.discount}}%</p>
         </div>
+        {{/if}}
         <div class="ball-new balls">
             <p>NEW</p>
         </div>
-        <img src={{image}} alt="{{desc}}">
+        <img src={{this.image}} alt="{{this.desc}}">
     </div>
-    <h3>{{name}}</h3>
-    <p>{{desc}}</p>
-    <p class="price">${{price}}</p>
+    <h3>{{this.name}}</h3>
+    <p>{{this.desc}}</p>
+    <p class="price">${{this.price}}</p>
 </article>
 {{/each}}

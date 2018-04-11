@@ -11,7 +11,7 @@
 		{
 			"name": "Coat",
 			"desc": "a awesome coat",
-			"price": 120,
+			"price": 120.00,
 			"originalPrice": 120,
 			"image": "https://cdn.shopify.com/s/files/1/1634/8185/products/alpha_industries_men_s_cwu_pilot_x_flight_jacket_01_270x335_crop_top.png?v=1480672952"
 		},
@@ -32,7 +32,7 @@
 			"image": "https://cdn.shopify.com/s/files/1/1634/8185/products/aspen_avionics_evolution_01_270x335_crop_top.png?v=1480672974"
 		},
 		{
-			"name": "Headphones",
+			"name": "Hello",
 			"desc": "a pair of headphones",
 			"price": 45.99,
 			"originalPrice": 75,
