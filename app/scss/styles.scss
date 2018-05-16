@@ -45,7 +45,7 @@ nav li:hover {
 
 li span{
   position: absolute;
-  top: 11px;
+  top: -8px;
   right: 0;
   padding: 2px;
   background: #e22a2f;
@@ -128,7 +128,7 @@ nav img {
 .cust {
   position: fixed;
   z-index: 3;
-  bottom: 500px;
+  top: 300px;
   left: 0;
   height: 50px;
   width: 50px;
